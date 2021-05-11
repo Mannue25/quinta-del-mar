@@ -14,11 +14,10 @@ h3 {
 }
 
 .header {
-   height: 50rem;
+   height: 40rem;
     background-image:url(../img/laquinta_16.jpeg) ;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom cover;
+    background-position: bottom center;
 
 
 }
@@ -34,6 +33,11 @@ h3 {
 
 .nombre-sitio span {
     font-weight: 900;
+}
+
+.navbar-toggler {
+    background-color: white!important;
+    margin: 0 auto;
 }
 
 .nav-link {
