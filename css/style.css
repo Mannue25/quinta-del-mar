@@ -1,0 +1,119 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3 {
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 3.6rem;
+}
+h3 {
+    font-size: 3rem;
+}
+
+.header {
+   height: 50rem;
+    background-image:url(../img/laquinta_16.jpeg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom cover;
+
+
+}
+
+.bg-light {
+    background-color: white!important;
+}
+
+.nombre-sitio {
+    font-size: 2.4rem;
+    font-weight: 300;
+}
+
+.nombre-sitio span {
+    font-weight: 900;
+}
+
+.nav-link {
+    color: white!important;
+}
+
+@media(min-width:992px) {
+ .header .nav-link:first-child::before{ 
+     display: none;
+ }
+ .header .nav-link::before {
+     content: ' | ';
+     margin-right: 1rem;
+ }
+
+}
+
+.telefono::before {
+    background-image: url(../img/icono_telefono.png);
+    content: '';
+    display: inline-block;
+    height: 2rem;
+    width: 2rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-right: 1rem;
+}
+
+/* NOSOTROS*/
+
+.sobre-nosotros-bg {
+    min-height: 44rem;
+    background-image: url(../img/laquinta_19.jpeg);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+@media(min-width:768px) {
+    .sobre-nosotros-bg {
+        min-height: 36rem;
+    }
+}
+
+
+/*NATURALEZA */
+
+.modelo {
+    background-repeat: no-repeat;
+    min-height: 40rem;
+}
+
+@media(min-width:768px){
+    .modelo{
+        min-height: 30rem;
+    }
+}
+.basico {
+    background-image: url(../img/laquinta_17.jpeg);
+    background-position: top right;
+}
+.premier {
+    background-image: url(../img/laquinta_07.jpeg);
+    background-position: top left;
+}
+
+.elite {
+    background-image: url(../img/laquinta_18.jpeg);
+    background-position: top right;
+}
+
+/*FOOTER*/
+
+.footer {
+    height: 30rem;
+    background-image: url(../img/footer-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+.bg-dark {
+    background-color: #111!important;
+}
